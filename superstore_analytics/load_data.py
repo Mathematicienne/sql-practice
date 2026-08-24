@@ -1,4 +1,3 @@
-# Создай файл load_data.py в VS Code и запусти:
 import pandas as pd
 import sqlite3
 import chardet
