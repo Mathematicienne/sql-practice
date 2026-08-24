@@ -36,3 +36,4 @@ cd superstore_analytics
 pip install pandas chardet
 python load_data.py        # Создаёт superstore.db из CSV
 sqlite3 superstore.db      # Интерактивный SQL
+```
