@@ -5,12 +5,13 @@
 -- Тема: Сортировка внутри оконных функциях
 -- ============================================
 
-SELECT family_member, 
-       date, 
-       payment_id,
-       amount * unit_price AS payment_amount,
-       SUM(amount * unit_price) OVER(
-           PARTITION BY family_member
-           ORDER BY date
-       ) AS cumulative_total
+SELECT 
+    family_member, 
+    date, 
+    payment_id,
+    amount * unit_price AS payment_amount,
+    SUM(amount * unit_price) OVER(
+        PARTITION BY family_member
+        ORDER BY date
+    ) AS cumulative_total
 FROM Payments
