@@ -12,8 +12,9 @@
 | `sql-exercises/` | Упражнения по темам: JOIN, агрегация, подзапросы, оконные функции | 11 |
 | `superstore_analytics/` | 16 аналитических запросов к учебной БД Superstore | 16 |
 | `test-assignments/` | Решённые тестовые задания из реальных собеседований | 8 |
+| `test-assignments/service_requests/` | Отчёт по заявлениям: фильтрация, последнее событие, справочники | 1 |
 
-**Всего: 35 SQL-задач**
+**Всего: 36 SQL-задач**
 
 ---
 
@@ -36,12 +37,7 @@
 cd superstore_analytics
 pip install pandas chardet
 python load_data.py        # Создаёт superstore.db из CSV
-sqlite3 superstore.db      # Интерактивный SQL
 ```
 
 ### test-assignments
-```bash
-cd test-assignments/loan_analytics
-sqlite3 loan_test.db < schema.sql  # Создать базу и загрузить данные
-sqlite3 loan_test.db               # Интерактивный SQL
-```
+Каждая папка содержит `schema.sql` с CREATE TABLE и тестовыми данными - создай базу любым удобным способом.
