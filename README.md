@@ -1,7 +1,7 @@
 # SQL Practice 🗄️
 
 Коллекция SQL-запросов к открытым учебным базам данных и аналитика Superstore.  
-Задачи с [sql-ex.ru](https://sql-ex.ru), [sql-academy.org](https://sql-academy.org), [leetcode.com](https://leetcode.com) и практика на реальных данных и реальные кейсы с собеседований.
+Задачи с [sql-ex.ru](https://sql-ex.ru), [sql-academy.org](https://sql-academy.org), [leetcode.com](https://leetcode.com), [datalemur.com](https://datalemur.com) и практика на реальных данных и реальные кейсы с собеседований.
 
 ---
 
@@ -14,14 +14,15 @@
 | `test-assignments/loan_analytics/` | Аналитика займов | 8 |
 | `test-assignments/service_requests/` | Отчёт по заявлениям: фильтрация, последнее событие, справочники | 1 |
 | `leetcode/` | 18 задач с LeetCode: JOIN, оконные функции, агрегация | 18 |
+| `datalemur/` | 5 задач с DataLemur: Self JOIN, оконные функции, аналитика | 5 |
 
-**Всего: 54 SQL-задач**
+**Всего: 59 SQL-задач**
 
 ---
 
 ## 🛠 Стек
 
-- **Диалекты:** SQLite, MySQL, MS SQL Server
+- **Диалекты:** SQLite, MySQL, MS SQL Server, PostgreSQL
 - **Темы:** JOIN, GROUP BY, HAVING, подзапросы, CTE, оконные функции (`OVER`, `PARTITION BY`, `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LEAD`, `LAG`, `NTILE`), скользящие окна, когортный анализ
 
 ---
@@ -47,3 +48,7 @@ python load_data.py        # Создаёт superstore.db из CSV
 ### leetcode
 Запросы можно выполнять на платформе:
 - [leetcode.com](https://leetcode.com/problemset/database/)
+
+### datalemur
+Запросы можно выполнять на платформе:
+- [datalemur.com](https://datalemur.com/questions/)
