@@ -1,7 +1,7 @@
 # SQL Practice 🗄️
 
 Коллекция SQL-запросов к открытым учебным базам данных и аналитика Superstore.  
-Задачи с [sql-ex.ru](https://sql-ex.ru), [sql-academy.org](https://sql-academy.org) и практика на реальных данных и реальные кейсы с собеседований.
+Задачи с [sql-ex.ru](https://sql-ex.ru), [sql-academy.org](https://sql-academy.org), [leetcode.com](https://leetcode.com) и практика на реальных данных и реальные кейсы с собеседований.
 
 ---
 
@@ -11,10 +11,11 @@
 |-------|----------|-------------|
 | `sql-exercises/` | Упражнения по темам: JOIN, агрегация, подзапросы, оконные функции | 11 |
 | `superstore_analytics/` | 16 аналитических запросов к учебной БД Superstore | 16 |
-| `test-assignments/` | Решённые тестовые задания из реальных собеседований | 8 |
+| `test-assignments/loan_analytics/` | Аналитика займов | 8 |
 | `test-assignments/service_requests/` | Отчёт по заявлениям: фильтрация, последнее событие, справочники | 1 |
+| `leetcode/` | 18 задач с LeetCode: JOIN, оконные функции, агрегация | 18 |
 
-**Всего: 36 SQL-задач**
+**Всего: 54 SQL-задач**
 
 ---
 
@@ -40,4 +41,9 @@ python load_data.py        # Создаёт superstore.db из CSV
 ```
 
 ### test-assignments
+Тестовые задачи с собеседований
 Каждая папка содержит `schema.sql` с CREATE TABLE и тестовыми данными - создай базу любым удобным способом.
+
+### leetcode
+Запросы можно выполнять на платформе:
+- [leetcode.com](https://leetcode.com/problemset/database/)
